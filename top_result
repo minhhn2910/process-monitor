@@ -1,0 +1,317 @@
+top - 15:41:37 up 15 days,  6:51, 12 users,  load average: 0.27, 0.40, 0.23
+Tasks: 309 total,   1 running, 308 sleeping,   0 stopped,   0 zombie
+Cpu(s):  2.8%us,  3.2%sy,  0.0%ni, 93.3%id,  0.6%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:   7931880k total,  6341316k used,  1590564k free,    46500k buffers
+Swap:  8077304k total,   490852k used,  7586452k free,  2234532k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                                                   
+28974 minhhn    20   0 1052m  63m  20m S  3.9  0.8  16:56.88 chrome                                                                                                    
+ 2640 root      20   0  196m  36m  21m S  2.0  0.5 140:04.81 Xorg                                                                                                      
+ 4302 minhhn    20   0 15168 1264  828 R  2.0  0.0   0:00.01 top                                                                                                       
+    1 root      20   0 19352 1184  968 S  0.0  0.0   0:02.36 init                                                                                                      
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.30 kthreadd                                                                                                  
+    3 root      RT   0     0    0    0 S  0.0  0.0   0:02.76 migration/0                                                                                               
+    4 root      20   0     0    0    0 S  0.0  0.0   0:18.77 ksoftirqd/0                                                                                               
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/0                                                                                               
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.91 watchdog/0                                                                                                
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:02.96 migration/1                                                                                               
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/1                                                                                               
+    9 root      20   0     0    0    0 S  0.0  0.0   0:14.00 ksoftirqd/1                                                                                               
+   10 root      RT   0     0    0    0 S  0.0  0.0   0:00.71 watchdog/1                                                                                                
+   11 root      RT   0     0    0    0 S  0.0  0.0   0:01.80 migration/2                                                                                               
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/2                                                                                               
+   13 root      20   0     0    0    0 S  0.0  0.0   0:12.82 ksoftirqd/2                                                                                               
+   14 root      RT   0     0    0    0 S  0.0  0.0   0:00.70 watchdog/2                                                                                                
+   15 root      RT   0     0    0    0 S  0.0  0.0   0:01.25 migration/3                                                                                               
+   16 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/3                                                                                               
+   17 root      20   0     0    0    0 S  0.0  0.0   0:21.30 ksoftirqd/3                                                                                               
+   18 root      RT   0     0    0    0 S  0.0  0.0   0:00.80 watchdog/3                                                                                                
+   19 root      20   0     0    0    0 S  0.0  0.0   1:06.69 events/0                                                                                                  
+   20 root      20   0     0    0    0 S  0.0  0.0   0:43.56 events/1                                                                                                  
+   21 root      20   0     0    0    0 S  0.0  0.0   0:30.00 events/2                                                                                                  
+   22 root      20   0     0    0    0 S  0.0  0.0   0:45.60 events/3                                                                                                  
+   23 root      20   0     0    0    0 S  0.0  0.0   0:00.00 cgroup                                                                                                    
+   24 root      20   0     0    0    0 S  0.0  0.0   0:00.32 khelper                                                                                                   
+   25 root      20   0     0    0    0 S  0.0  0.0   0:00.23 netns                                                                                                     
+   26 root      20   0     0    0    0 S  0.0  0.0   0:00.00 async/mgr                                                                                                 
+   27 root      20   0     0    0    0 S  0.0  0.0   0:00.00 pm                                                                                                        
+   28 root      20   0     0    0    0 S  0.0  0.0   0:04.64 sync_supers                                                                                               
+   29 root      20   0     0    0    0 S  0.0  0.0   0:03.17 bdi-default                                                                                               
+   30 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kintegrityd/0                                                                                             
+   31 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kintegrityd/1                                                                                             
+   32 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kintegrityd/2                                                                                             
+   33 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kintegrityd/3                                                                                             
+   34 root      20   0     0    0    0 S  0.0  0.0   0:00.66 kblockd/0                                                                                                 
+   35 root      20   0     0    0    0 S  0.0  0.0   0:00.39 kblockd/1                                                                                                 
+   36 root      20   0     0    0    0 S  0.0  0.0   0:00.18 kblockd/2                                                                                                 
+   37 root      20   0     0    0    0 S  0.0  0.0   1:07.45 kblockd/3                                                                                                 
+   38 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kacpid                                                                                                    
+   39 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kacpi_notify                                                                                              
+   40 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kacpi_hotplug                                                                                             
+   41 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ata_aux                                                                                                   
+   42 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ata_sff/0                                                                                                 
+   43 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ata_sff/1                                                                                                 
+   44 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ata_sff/2                                                                                                 
+   45 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ata_sff/3                                                                                                 
+   46 root      20   0     0    0    0 S  0.0  0.0   0:00.73 ksuspend_usbd                                                                                             
+   47 root      20   0     0    0    0 S  0.0  0.0   0:00.04 khubd                                                                                                     
+   48 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kseriod                                                                                                   
+   49 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md/0                                                                                                      
+   50 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md/1                                                                                                      
+   51 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md/2                                                                                                      
+   52 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md/3                                                                                                      
+   53 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md_misc/0                                                                                                 
+   54 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md_misc/1                                                                                                 
+   55 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md_misc/2                                                                                                 
+   56 root      20   0     0    0    0 S  0.0  0.0   0:00.00 md_misc/3                                                                                                 
+   57 root      20   0     0    0    0 S  0.0  0.0   0:00.00 linkwatch                                                                                                 
+   58 root      20   0     0    0    0 S  0.0  0.0   0:00.67 khungtaskd                                                                                                
+   59 root      20   0     0    0    0 S  0.0  0.0   0:37.73 kswapd0                                                                                                   
+   60 root      25   5     0    0    0 S  0.0  0.0   0:00.00 ksmd                                                                                                      
+   61 root      39  19     0    0    0 S  0.0  0.0   0:54.02 khugepaged                                                                                                
+   62 root      20   0     0    0    0 S  0.0  0.0   0:00.00 aio/0                                                                                                     
+   63 root      20   0     0    0    0 S  0.0  0.0   0:00.00 aio/1                                                                                                     
+   64 root      20   0     0    0    0 S  0.0  0.0   0:00.00 aio/2                                                                                                     
+   65 root      20   0     0    0    0 S  0.0  0.0   0:00.00 aio/3                                                                                                     
+   66 root      20   0     0    0    0 S  0.0  0.0   0:00.00 crypto/0                                                                                                  
+   67 root      20   0     0    0    0 S  0.0  0.0   0:00.00 crypto/1                                                                                                  
+   68 root      20   0     0    0    0 S  0.0  0.0   0:00.00 crypto/2                                                                                                  
+   69 root      20   0     0    0    0 S  0.0  0.0   0:00.00 crypto/3                                                                                                  
+   74 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthrotld/0                                                                                                
+   75 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthrotld/1                                                                                                
+   76 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthrotld/2                                                                                                
+   77 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthrotld/3                                                                                                
+   79 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kpsmoused                                                                                                 
+   80 root      20   0     0    0    0 S  0.0  0.0   0:00.00 usbhid_resumer                                                                                            
+  111 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kstriped                                                                                                  
+  138 root      20   0     0    0    0 S  0.0  0.0   0:07.93 i915                                                                                                      
+  140 root      15  -5     0    0    0 S  0.0  0.0   0:00.00 kslowd000                                                                                                 
+  141 root      15  -5     0    0    0 S  0.0  0.0   0:00.00 kslowd001                                                                                                 
+  277 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_0                                                                                                 
+  278 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_1                                                                                                 
+  279 root      20   0     0    0    0 S  0.0  0.0   0:00.10 scsi_eh_2                                                                                                 
+  280 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_3                                                                                                 
+  281 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_4                                                                                                 
+  282 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_5                                                                                                 
+  400 root      20   0     0    0    0 S  0.0  0.0   0:03.30 kdmflush                                                                                                  
+  402 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kdmflush                                                                                                  
+  419 root      20   0     0    0    0 S  0.0  0.0   0:17.11 jbd2/dm-0-8                                                                                               
+  420 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ext4-dio-unwrit                                                                                           
+  455 minhhn    20   0 1158m  25m  13m S  0.0  0.3  20:50.72 VirtualBox                                                                                                
+  468 minhhn    20   0  185m 1524 1268 S  0.0  0.0  19:26.34 VBoxXPCOMIPCD                                                                                             
+  473 minhhn    20   0  827m  59m 3684 S  0.0  0.8  31:38.33 VBoxSVC                                                                                                   
+  518 root      16  -4 11248  844  320 S  0.0  0.0   0:03.13 udevd                                                                                                     
+  613 root      20   0     0    0    0 S  0.0  0.0   0:00.00 hd-audio0                                                                                                 
+  650 minhhn    20   0 1080m  45m  16m S  0.0  0.6   0:16.67 chrome                                                                                                    
+ 1051 minhhn    20   0 1160m 164m  25m S  0.0  2.1   0:11.74 chrome                                                                                                    
+ 1144 minhhn    20   0 1132m 117m  27m S  0.0  1.5   0:06.96 chrome                                                                                                    
+ 1197 minhhn    20   0  106m 2136 1468 S  0.0  0.0   0:00.23 bash                                                                                                      
+ 1216 minhhn    20   0  105m 1960 1464 S  0.0  0.0   0:00.02 bash                                                                                                      
+ 1346 postfix   20   0 81364 3444 2544 S  0.0  0.0   0:00.02 pickup                                                                                                    
+ 1374 minhhn    20   0 1075m  81m  27m S  0.0  1.1   0:06.03 chrome                                                                                                    
+ 1403 root      20   0     0    0    0 S  0.0  0.0   0:11.75 kdmflush                                                                                                  
+ 1449 root      20   0     0    0    0 S  0.0  0.0   0:00.00 jbd2/sda2-8                                                                                               
+ 1450 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ext4-dio-unwrit                                                                                           
+ 1453 root      20   0     0    0    0 S  0.0  0.0   1:08.89 jbd2/dm-2-8                                                                                               
+ 1454 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ext4-dio-unwrit                                                                                           
+ 1462 root      20   0     0    0    0 S  0.0  0.0   0:09.31 flush-253:0                                                                                               
+ 1463 root      20   0     0    0    0 S  0.0  0.0   1:05.32 flush-253:2                                                                                               
+ 1485 minhhn    20   0 1123m 137m  25m S  0.0  1.8   0:23.17 chrome                                                                                                    
+ 1510 root      20   0     0    0    0 S  0.0  0.0   0:00.45 kauditd                                                                                                   
+ 1578 minhhn    20   0 1084m  86m  24m S  0.0  1.1   0:03.96 chrome                                                                                                    
+ 1643 minhhn    20   0 1108m  88m  24m S  0.0  1.1   0:10.29 chrome                                                                                                    
+ 1665 minhhn    20   0 62300 3680 2840 S  0.0  0.0   0:00.00 ssh                                                                                                       
+ 1684 minhhn    20   0 1199m 184m  25m S  0.0  2.4   0:10.50 chrome                                                                                                    
+ 1732 minhhn    20   0 1103m 102m  25m S  0.0  1.3   0:15.31 chrome                                                                                                    
+ 1882 root      16  -4 27640  680  564 S  0.0  0.0   0:02.09 auditd                                                                                                    
+ 1907 root      20   0  243m 1736  868 S  0.0  0.0   0:01.80 rsyslogd                                                                                                  
+ 1931 root      20   0     0    0    0 S  0.0  0.0   9:47.87 kondemand/0                                                                                               
+ 1932 root      20   0     0    0    0 S  0.0  0.0   5:53.70 kondemand/1                                                                                               
+ 1933 root      20   0     0    0    0 S  0.0  0.0   4:55.14 kondemand/2                                                                                               
+ 1934 root      20   0     0    0    0 S  0.0  0.0  10:03.71 kondemand/3                                                                                               
+ 1955 root      20   0 10820  500  404 S  0.0  0.0   1:17.12 irqbalance                                                                                                
+ 1969 rpc       20   0 18976  756  624 S  0.0  0.0   0:01.23 rpcbind                                                                                                   
+ 2085 root      20   0     0    0    0 S  0.0  0.0   0:00.00 iprt/0                                                                                                    
+ 2086 root      20   0     0    0    0 S  0.0  0.0   0:00.00 iprt/1                                                                                                    
+ 2087 root      20   0     0    0    0 S  0.0  0.0   0:00.00 iprt/2                                                                                                    
+ 2088 root      20   0     0    0    0 S  0.0  0.0   0:00.00 iprt/3                                                                                                    
+ 2105 dbus      20   0 32748 2032  932 S  0.0  0.0   0:12.96 dbus-daemon                                                                                               
+ 2116 root      20   0  159m 3656 2200 S  0.0  0.0   0:03.61 NetworkManager                                                                                            
+ 2120 root      20   0 58072 1796 1416 S  0.0  0.0   0:00.08 modem-manager                                                                                             
+ 2135 rpcuser   20   0 23348  744  740 S  0.0  0.0   0:00.02 rpc.statd                                                                                                 
+ 2175 root      20   0 44976  316  312 S  0.0  0.0   0:00.00 wpa_supplicant                                                                                            
+ 2222 root      20   0  4080  476  472 S  0.0  0.0   0:00.00 acpid                                                                                                     
+ 2231 haldaemo  20   0 39036 2540 1700 S  0.0  0.0   0:10.72 hald                                                                                                      
+ 2232 root      20   0 20328 1028  876 S  0.0  0.0   0:00.01 hald-runner                                                                                               
+ 2276 root      20   0 22440  772  768 S  0.0  0.0   0:00.00 hald-addon-gene                                                                                           
+ 2277 root      20   0 22440  828  824 S  0.0  0.0   0:00.00 hald-addon-gene                                                                                           
+ 2279 root      20   0 22448  932  824 S  0.0  0.0   0:09.98 hald-addon-inpu                                                                                           
+ 2283 haldaemo  20   0 17936  796  792 S  0.0  0.0   0:00.00 hald-addon-acpi                                                                                           
+ 2303 root      20   0  376m  904  780 S  0.0  0.0   0:07.67 automount                                                                                                 
+ 2340 root      20   0 66608  352  348 S  0.0  0.0   0:00.00 sshd                                                                                                      
+ 2420 root      20   0 81284 1356 1264 S  0.0  0.0   0:04.54 master                                                                                                    
+ 2427 postfix   20   0 81532 1512 1396 S  0.0  0.0   0:01.39 qmgr                                                                                                      
+ 2444 root      20   0  107m  984  812 S  0.0  0.0   0:01.33 abrtd                                                                                                     
+ 2452 root      20   0  317m 9716 2724 S  0.0  0.1   0:31.04 httpd                                                                                                     
+ 2460 root      20   0  114m  796  712 S  0.0  0.0   0:08.14 crond                                                                                                     
+ 2471 root      20   0 21540  300  284 S  0.0  0.0   0:00.19 atd                                                                                                       
+ 2496 root      20   0 62340  228  180 S  0.0  0.0   0:01.97 certmonger                                                                                                
+ 2504 root      20   0  130m 1868 1620 S  0.0  0.0   0:00.41 gdm-binary                                                                                                
+ 2513 root      20   0  4064  432  428 S  0.0  0.0   0:00.00 mingetty                                                                                                  
+ 2515 root      20   0  4064  432  428 S  0.0  0.0   0:00.00 mingetty                                                                                                  
+ 2517 root      20   0  4064  432  428 S  0.0  0.0   0:00.00 mingetty                                                                                                  
+ 2519 root      20   0  4064  432  428 S  0.0  0.0   0:00.00 mingetty                                                                                                  
+ 2521 root      20   0  4064  432  428 S  0.0  0.0   0:00.00 mingetty                                                                                                  
+ 2523 root      20   0 2038m 2524 1940 S  0.0  0.0   0:00.68 console-kit-dae                                                                                           
+ 2609 root      20   0  150m  13m 3468 S  0.0  0.2  11:01.41 teamviewerd                                                                                               
+ 2632 root      20   0  160m 1784 1780 S  0.0  0.0   0:00.02 gdm-simple-slav                                                                                           
+ 2661 gdm       20   0 20040  344  340 S  0.0  0.0   0:00.00 dbus-launch                                                                                               
+ 2667 root      20   0 49812 2108 1684 S  0.0  0.0   0:00.71 devkit-power-da                                                                                           
+ 2706 root      20   0 52580 2792 2232 S  0.0  0.0   0:00.38 polkitd                                                                                                   
+ 2716 rtkit     21   1  164m 1056  944 S  0.0  0.0   0:14.46 rtkit-daemon                                                                                              
+ 2724 root      20   0  187m 1644 1640 S  0.0  0.0   0:00.09 gdm-session-wor                                                                                           
+ 2735 minhhn    20   0  159m 3168 2472 S  0.0  0.0   0:00.09 gnome-keyring-d                                                                                           
+ 2745 minhhn    20   0  247m 4132 3332 S  0.0  0.1   0:01.72 gnome-session                                                                                             
+ 2753 minhhn    20   0 20040  344  340 S  0.0  0.0   0:00.00 dbus-launch                                                                                               
+ 2754 minhhn    20   0 32900 2052  812 S  0.0  0.0   0:07.09 dbus-daemon                                                                                               
+ 2784 minhhn    20   0  130m 4776 1816 S  0.0  0.1   0:11.59 gconfd-2                                                                                                  
+ 2788 minhhn    20   0  507m  12m 4396 S  0.0  0.2   2:32.42 gnome-settings-                                                                                           
+ 2796 minhhn    20   0  286m 3984 3260 S  0.0  0.1   0:00.47 seahorse-daemon                                                                                           
+ 2799 minhhn    20   0  133m 1656 1472 S  0.0  0.0   0:00.30 gvfsd                                                                                                     
+ 2808 minhhn    20   0  342m 3964 1576 S  0.0  0.0   0:00.00 gvfs-fuse-daemo                                                                                           
+ 2813 minhhn    20   0  481m  12m 7244 S  0.0  0.2   2:38.44 metacity                                                                                                  
+ 2817 minhhn     9 -11  441m 7764 3136 S  0.0  0.1  35:00.32 pulseaudio                                                                                                
+ 2818 minhhn    20   0  425m  14m 6820 S  0.0  0.2   1:20.54 gnome-panel                                                                                               
+ 2830 minhhn    20   0 95228 1644 1516 S  0.0  0.0   0:00.00 gconf-helper                                                                                              
+ 2831 minhhn    20   0 1133m  40m  15m S  0.0  0.5  30:56.63 nautilus                                                                                                  
+ 2833 minhhn    20   0  679m 1620 1580 S  0.0  0.0   0:00.02 bonobo-activati                                                                                           
+ 2839 minhhn    20   0  371m  11m 6532 S  0.0  0.1   4:28.06 wnck-applet                                                                                               
+ 2841 minhhn    20   0  336m 7280 5248 S  0.0  0.1   0:00.96 trashapplet                                                                                               
+ 2847 minhhn    20   0  214m 2524 1932 S  0.0  0.0   0:17.80 gvfsd-trash                                                                                               
+ 2849 minhhn    20   0  291m 3056 2224 S  0.0  0.0   0:05.66 gvfs-gdu-volume                                                                                           
+ 2851 root      20   0 57904 3004 2160 S  0.0  0.0   0:51.39 udisks-daemon                                                                                             
+ 2852 root      20   0 45044  452  328 S  0.0  0.0   0:00.06 udisks-daemon                                                                                             
+ 2854 minhhn    20   0  429m 4488 3740 S  0.0  0.1   0:01.50 evolution-alarm                                                                                           
+ 2857 minhhn    20   0 30428 4004 1228 S  0.0  0.1   0:00.19 restorecond                                                                                               
+ 2860 minhhn    20   0  344m 5728 4000 S  0.0  0.1   0:00.80 nm-applet                                                                                                 
+ 2862 minhhn    20   0  151m 2496 1900 S  0.0  0.0   0:00.03 gvfs-gphoto2-vo                                                                                           
+ 2864 minhhn    20   0  377m 5844 4388 S  0.0  0.1   0:01.94 gnome-volume-co                                                                                           
+ 2870 minhhn    20   0  230m 2956 2664 S  0.0  0.0   0:00.06 abrt-applet                                                                                               
+ 2873 minhhn    20   0  226m 1416 1280 S  0.0  0.0   0:33.31 gvfs-afc-volume                                                                                           
+ 2874 minhhn    20   0  224m 3280 2872 S  0.0  0.0   0:00.00 polkit-gnome-au                                                                                           
+ 2876 minhhn    20   0  279m 4704 3356 S  0.0  0.1   0:14.68 gnome-power-man                                                                                           
+ 2882 minhhn    20   0  249m 4048 3280 S  0.0  0.1   0:02.52 gdu-notificatio                                                                                           
+ 2883 minhhn    20   0  267m 4052 3468 S  0.0  0.1   0:00.11 bluetooth-apple                                                                                           
+ 2887 minhhn    20   0  122m 2428 2112 S  0.0  0.0   0:01.99 im-settings-dae                                                                                           
+ 3031 minhhn    20   0  435m 6536 4584 S  0.0  0.1   0:00.32 gnote                                                                                                     
+ 3036 minhhn    20   0  500m  11m 7532 S  0.0  0.2   0:28.84 clock-applet                                                                                              
+ 3038 minhhn    20   0  402m 6808 4896 S  0.0  0.1   0:01.69 gdm-user-switch                                                                                           
+ 3069 minhhn    20   0  148m 2660 1688 S  0.0  0.0   2:20.16 ibus-daemon                                                                                               
+ 3070 minhhn    20   0  274m  21m 4164 S  0.0  0.3   0:45.16 gnome-screensav                                                                                           
+ 3075 minhhn    20   0 40900 1692 1512 S  0.0  0.0   0:00.27 gconf-im-settin                                                                                           
+ 3079 minhhn    20   0  713m 5756 2836 S  0.0  0.1   0:00.23 e-calendar-fact                                                                                           
+ 3080 minhhn    20   0  152m 2240 1900 S  0.0  0.0   0:00.04 ibus-gconf                                                                                                
+ 3087 minhhn    20   0  230m 3552 2976 S  0.0  0.0   0:00.73 ibus-x11                                                                                                  
+ 3089 minhhn    20   0  230m 2588 2036 S  0.0  0.0   0:02.98 ibus-engine-uni                                                                                           
+ 3096 minhhn    20   0  692m 2444 2276 S  0.0  0.0   0:00.02 e-addressbook-f                                                                                           
+ 3116 minhhn    20   0  132m 1660 1260 S  0.0  0.0   0:00.08 gvfsd-metadata                                                                                            
+ 3121 minhhn    20   0  134m 1656 1508 S  0.0  0.0   0:00.00 gvfsd-burn                                                                                                
+ 3123 minhhn    20   0 1355m 301m  41m S  0.0  3.9 352:03.13 chrome                                                                                                    
+ 3128 minhhn    20   0  362m 9332 7324 S  0.0  0.1  21:09.83 chrome                                                                                                    
+ 3129 minhhn    20   0  6228  460  456 S  0.0  0.0   0:00.01 chrome-sandbox                                                                                            
+ 3130 minhhn    20   0  409m 5540 2632 S  0.0  0.1   0:00.44 chrome                                                                                                    
+ 3133 minhhn    20   0  121m 1284 1100 S  0.0  0.0   0:00.00 nacl_helper                                                                                               
+ 3135 minhhn    20   0  439m 3812  700 S  0.0  0.0   0:04.12 chrome                                                                                                    
+ 3204 minhhn    20   0 1132m 145m  17m S  0.0  1.9  21:32.01 chrome                                                                                                    
+ 3212 minhhn    20   0 1115m  76m  23m S  0.0  1.0  22:46.90 chrome                                                                                                    
+ 3308 minhhn    20   0 1205m 263m  14m S  0.0  3.4  64:16.09 chrome                                                                                                    
+ 3345 minhhn    20   0 1054m  55m  22m S  0.0  0.7   3:18.06 chrome                                                                                                    
+ 3499 minhhn    20   0 1461m  64m  13m S  0.0  0.8  59:23.52 chrome                                                                                                    
+ 3720 minhhn    20   0 1174m 173m  26m S  0.0  2.2   0:21.30 chrome                                                                                                    
+ 3855 minhhn    20   0 1075m  75m  24m S  0.0  1.0   0:03.69 chrome                                                                                                    
+ 3968 minhhn    20   0  105m 1952 1464 S  0.0  0.0   0:00.04 bash                                                                                                      
+ 4021 minhhn    20   0 1133m 160m  28m S  0.0  2.1   0:12.19 chrome                                                                                                    
+ 4300 minhhn    20   0  115m 4572 1976 S  0.0  0.1   0:00.01 python                                                                                                    
+ 4301 minhhn    20   0  103m 1192 1024 S  0.0  0.0   0:00.00 sh                                                                                                        
+ 4736 minhhn    20   0  328m  15m 6592 S  0.0  0.2   9:30.38 gnome-terminal                                                                                            
+ 4737 minhhn    20   0  8228  644  568 S  0.0  0.0   0:00.03 gnome-pty-helpe                                                                                           
+ 4758 minhhn    20   0 1057m  71m  25m S  0.0  0.9   0:48.55 chrome                                                                                                    
+ 5514 minhhn    20   0 1062m  73m  24m S  0.0  0.9   0:04.68 chrome                                                                                                    
+ 5823 minhhn    20   0 1063m  71m  24m S  0.0  0.9   1:06.17 chrome                                                                                                    
+ 6077 minhhn    20   0 1357m 178m  29m S  0.0  2.3  46:27.62 chrome                                                                                                    
+ 7076 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7077 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7078 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7079 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7080 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7081 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7082 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 7083 apache    20   0  317m 7412  388 S  0.0  0.1   0:00.00 httpd                                                                                                     
+ 8315 minhhn    20   0 1115m  98m  27m S  0.0  1.3   1:16.15 chrome                                                                                                    
+ 9229 minhhn    20   0 1338m  80m  17m S  0.0  1.0 492:19.90 chrome                                                                                                    
+ 9814 minhhn    20   0  106m 1320  960 S  0.0  0.0   0:00.47 bash                                                                                                      
+10250 minhhn    20   0 2618m 109m 7800 S  0.0  1.4  14:31.55 dropbox                                                                                                   
+11985 minhhn    20   0 1060m  63m  23m S  0.0  0.8   0:21.44 chrome                                                                                                    
+13528 minhhn    20   0  105m 1140  960 S  0.0  0.0   0:00.09 bash                                                                                                      
+13691 root      20   0  160m 3344 2616 S  0.0  0.0   0:00.02 gdm-simple-slav                                                                                           
+13695 root      20   0  153m  12m 6940 S  0.0  0.2   0:01.91 Xorg                                                                                                      
+13715 gdm       20   0 20040  628  396 S  0.0  0.0   0:00.00 dbus-launch                                                                                               
+13717 gdm       20   0 31780 1252  852 S  0.0  0.0   0:00.01 dbus-daemon                                                                                               
+13719 gdm       20   0  262m 7836 6216 S  0.0  0.1   0:00.04 gnome-session                                                                                             
+13722 gdm       20   0  130m 5292 2152 S  0.0  0.1   0:00.27 gconfd-2                                                                                                  
+13723 gdm       20   0  117m 4460 3596 S  0.0  0.1   0:00.29 at-spi-registry                                                                                           
+13727 gdm       20   0  359m  17m  14m S  0.0  0.2   0:01.68 gnome-settings-                                                                                           
+13729 gdm       20   0  349m 2968 2344 S  0.0  0.0   0:00.01 bonobo-activati                                                                                           
+13734 gdm       20   0  131m 1900 1612 S  0.0  0.0   0:00.00 gvfsd                                                                                                     
+13737 gdm       20   0  293m 9908 7440 S  0.0  0.1   0:00.45 metacity                                                                                                  
+13739 gdm       20   0  398m  21m  17m S  0.0  0.3   0:01.79 gdm-simple-gree                                                                                           
+13741 gdm       20   0  242m 7452 5896 S  0.0  0.1   0:00.01 polkit-gnome-au                                                                                           
+13742 gdm       20   0  267m 8656 6876 S  0.0  0.1   0:00.91 gnome-power-man                                                                                           
+13751 gdm        9 -11  417m 4256 3120 S  0.0  0.1   0:00.07 pulseaudio                                                                                                
+13766 minhhn    20   0 65416 3056 2120 S  0.0  0.0   0:00.01 gnome-keyring-d                                                                                           
+13771 root      20   0  138m 2080 1740 S  0.0  0.0   0:00.00 gdm-session-wor                                                                                           
+16649 root      20   0 23964  908  728 S  0.0  0.0   0:27.10 vmware-usbarbit                                                                                           
+16735 root      20   0  185m 2588 2056 S  0.0  0.0   0:00.26 cupsd                                                                                                     
+16905 root      20   0  256m 2648  428 S  0.0  0.0   0:00.04 vmware-vmblock-                                                                                           
+16920 root      20   0  6704  344  336 S  0.0  0.0   0:00.00 vmnet-bridge                                                                                              
+16931 root      20   0  6676   96   88 S  0.0  0.0   0:00.00 vmnet-netifup                                                                                             
+16955 root      20   0 19016  272  168 S  0.0  0.0   0:01.86 vmnet-dhcpd                                                                                               
+16958 root      20   0 11496  812  724 S  0.0  0.0   0:06.95 vmnet-natd                                                                                                
+16960 root      20   0  6676   92   88 S  0.0  0.0   0:00.00 vmnet-netifup                                                                                             
+16984 root      20   0 19016  460  340 S  0.0  0.0   0:01.00 vmnet-dhcpd                                                                                               
+17014 root      20   0 23636  356  272 S  0.0  0.0   0:24.75 vmware-authdlau                                                                                           
+19659 minhhn    20   0 1084m  84m  18m S  0.0  1.1   0:06.45 chrome                                                                                                    
+21352 minhhn    20   0  289m  14m  11m S  0.0  0.2   0:00.81 notification-da                                                                                           
+21543 minhhn    20   0  103m  620  600 S  0.0  0.0   0:00.02 teamviewer                                                                                                
+21640 minhhn    20   0  8452 1528  564 S  0.0  0.0  24:13.98 wineserver                                                                                                
+21650 minhhn    20   0 2749m  24m 2872 S  0.0  0.3  28:39.60 TeamViewer.exe                                                                                            
+21657 minhhn    20   0 2585m  632  620 S  0.0  0.0   0:00.00 services.exe                                                                                              
+21662 minhhn    20   0 2594m 1868 1416 S  0.0  0.0   3:01.38 explorer.exe                                                                                              
+24598 minhhn    20   0  105m 1704 1204 S  0.0  0.0   0:00.06 bash                                                                                                      
+25046 minhhn    20   0  162m 2088 1972 S  0.0  0.0   0:00.00 gvfsd-http                                                                                                
+25180 minhhn    20   0  105m 1472  996 S  0.0  0.0   0:00.01 bash                                                                                                      
+25197 minhhn    20   0 62444 2952 1932 S  0.0  0.0   0:00.34 ssh                                                                                                       
+25200 minhhn    20   0  105m 1468  996 S  0.0  0.0   0:00.00 bash                                                                                                      
+25217 minhhn    20   0 62444 2916 2060 S  0.0  0.0   0:02.52 ssh                                                                                                       
+25219 minhhn    20   0  105m 1472  996 S  0.0  0.0   0:00.00 bash                                                                                                      
+25236 minhhn    20   0 62444 2792 1936 S  0.0  0.0   0:00.45 ssh                                                                                                       
+26154 minhhn    20   0  214m 2436 1948 S  0.0  0.0   0:00.01 gvfsd-computer                                                                                            
+26167 minhhn    20   0  145m 2548 2068 S  0.0  0.0   0:00.00 gvfsd-network                                                                                             
+26172 minhhn    20   0  142m 2040 1668 S  0.0  0.0   0:00.05 gvfsd-dnssd                                                                                               
+27150 minhhn    20   0 1014m  25m  12m S  0.0  0.3   0:28.72 chrome                                                                                                    
+27392 minhhn    20   0 1107m  78m  20m S  0.0  1.0   2:53.98 chrome                                                                                                    
+27719 minhhn    20   0 1116m  60m  16m S  0.0  0.8   7:14.03 chrome                                                                                                    
+28137 minhhn    20   0 1142m 136m  30m S  0.0  1.8   0:26.38 chrome                                                                                                    
+29759 minhhn    20   0 1513m 142m  19m S  0.0  1.8   3:01.66 texstudio                                                                                                 
+30026 minhhn    20   0 1499m 171m  33m S  0.0  2.2   0:38.29 texstudio                                                                                                 
+31357 minhhn    20   0  339m  14m 6844 S  0.0  0.2   4:09.55 geany                                                                                                     
+31358 minhhn    20   0  8228  652  552 S  0.0  0.0   0:00.00 gnome-pty-helpe                                                                                           
+31359 minhhn    20   0  105m 1468  996 S  0.0  0.0   0:00.00 bash                                                                                                      
+31643 root      18  -2 12564 2608  564 S  0.0  0.0   0:00.70 udevd                                                                                                     
+31644 root      18  -2 12564 2588  556 S  0.0  0.0   0:00.07 udevd                                                                                                     
+31973 minhhn    20   0 1027m  41m  17m S  0.0  0.5   0:13.23 chrome                                                                                                    
+32012 minhhn    20   0 1091m  76m  23m S  0.0  1.0   1:23.61 chrome                                                                                                    
+32151 minhhn    20   0 1096m  62m  20m S  0.0  0.8   0:21.39 chrome                                                                                                    
+32405 minhhn    20   0  105m 1472  996 S  0.0  0.0   0:00.00 bash                                                                                                      
+32422 minhhn    20   0 62444 2916 2060 S  0.0  0.0   0:00.26 ssh                                                                                                       
+
