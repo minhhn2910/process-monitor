@@ -6,7 +6,10 @@ Configurable parameters in clean_job_conf file
 
 Usage:
 
-run under root privilege:
+Run under root privilege:
+
+chmod +x monitor.py
+
 ./monitor.py [loop_interval]
 
 TO DISABLE OUTPUT AND RUN AS A SERVICE; USING THIS COMMAND:
