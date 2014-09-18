@@ -8,7 +8,7 @@ Usage:
 
 run under root privilege
 
-./monitor.py [loop_interval]
+nohup ./monitor.py [loop_interval] &
 
 this program will clean the system again after loop_interval minutes, default value is 30 minutes
 
