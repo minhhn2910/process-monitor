@@ -8,7 +8,7 @@ Usage:
 
 run under root privilege
 
-./monitor x
+./monitor.py x
 
 x is the loop interval, this program will clean the system again after x minutes
 
